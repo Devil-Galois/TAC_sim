@@ -1,6 +1,6 @@
 (ExpressProject "Project4"
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1-2024 S001-[11/15/24]")
+  (SoftwareVersion "23.1-2024 S001-[11/21/24]")
   (ProjectType "Analog or A/D Mixed Mode")
   (Folder "Design Resources"
     (Folder "Library")
@@ -161,16 +161,16 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 523"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 472"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 28 5 1290 28 545")
-        (Scroll "0 466")
-        (Zoom "132")
+        (Placement "44 0 1 -1 -1 5 28 5 1290 28 518")
+        (Scroll "-141 262")
+        (Zoom "100")
         (Occurrence "/"))
-      (Path "C:\CDS_SPB_HOME\CDSSETUP\PROJECT4\PROJECT4.DSN")
+      (Path "C:\USERS\LI150\DESKTOP\GIT-TAC\DESIGN\PROJECT4.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1")))
   (MPSSessionName "li150"))

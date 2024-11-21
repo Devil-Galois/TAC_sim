@@ -1,10 +1,4 @@
  lib=C:\cds_spb_home\cdssetup\pspTILibDir\OPA2156.LIB, offset=3423, size=9829
- lib=C:\cds_spb_home\cdssetup\pspTILibDir\opa659.lib, offset=1841, size=2261
- lib=f:\pspice\tools\PSpice\Library\cdn_psp_tipspice.lib, offset=1140470, size=1839
- lib=f:\pspice\tools\PSpice\Library\cdn_psp_tipspice.lib, offset=1374635, size=1040
- lib=f:\pspice\tools\PSpice\Library\cdn_psp_tipspice.lib, offset=1181593, size=5837
- lib=f:\pspice\tools\PSpice\Library\cdn_psp_tipspice.lib, offset=506148, size=1506
- lib=f:\pspice\tools\PSpice\Library\cdn_psp_tipspice.lib, offset=1103198, size=2372
  lib=C:\cds_spb_home\cdssetup\pspTILibDir\OPA2156.LIB, offset=13253, size=118
  lib=C:\cds_spb_home\cdssetup\pspTILibDir\OPA2156.LIB, offset=13372, size=117
  lib=C:\cds_spb_home\cdssetup\pspTILibDir\OPA2156.LIB, offset=13490, size=118
@@ -30,4 +24,3 @@
  lib=C:\cds_spb_home\cdssetup\pspTILibDir\OPA2156.LIB, offset=17480, size=146
  lib=C:\cds_spb_home\cdssetup\pspTILibDir\OPA2156.LIB, offset=15755, size=247
  lib=C:\cds_spb_home\cdssetup\pspTILibDir\OPA2156.LIB, offset=16983, size=174
- lib=f:\pspice\tools\PSpice\Library\cdn_psp_tipspice.lib, offset=507655, size=2116

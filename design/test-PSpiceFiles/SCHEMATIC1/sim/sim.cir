@@ -1,4 +1,4 @@
-** Profile: "SCHEMATIC1-sim"  [ C:\Users\li150\Desktop\git-tac\design\project4-pspicefiles\schematic1\sim.sim ] 
+** Profile: "SCHEMATIC1-sim"  [ C:\Users\li150\Desktop\git-tac\design\test-pspicefiles\schematic1\sim.sim ] 
 
 ** Creating circuit file "sim.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
@@ -11,13 +11,9 @@
 .lib "nom.lib" 
 
 *Analysis directives: 
-.TRAN  0 2.6u 2.4u 
+.DC LIN V_V2 4.2 4.8 0.001 
 .OPTIONS ADVCONV
 .OPTIONS FILEMODELSEARCH
-.OPTIONS ABSTOL= 1.0u
-.OPTIONS ITL2= 200
-.OPTIONS ITL4= 1000
-.OPTIONS RELTOL= 0.01
 .PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
 .INC "..\SCHEMATIC1.net" 
 

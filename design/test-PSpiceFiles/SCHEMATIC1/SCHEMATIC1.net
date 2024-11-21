@@ -1,0 +1,7 @@
+* source TEST
+V_V1         VCC 0 12Vdc
+V_V2         VBIAS1 0 4Vdc
+X_U1         VBIAS1 N02510 VCC 0 N02460 OPA2156
+R_R1         VBIAS1 N02460  100k TC=0,0 
+R_R2         N02510 N02460  1k TC=0,0 
+R_R3         N02510 0  100k TC=0,0 

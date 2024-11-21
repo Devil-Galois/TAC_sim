@@ -1,0 +1,176 @@
+
+**** 11/21/24 16:00:04 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim"  [ C:\Users\li150\Desktop\git-tac\design\test-pspicefiles\schematic1\sim.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\cds_spb_home\cdssetup\OrCAD_PSpiceTIPSpice_Install\23.1.0\PSpice.ini file:
+.lib "nom_pspti.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN V_V2 4.2 4.8 0.001 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source TEST
+V_V1         VCC 0 12Vdc
+V_V2         VBIAS1 0 4Vdc
+X_U1         VBIAS1 N02510 VCC 0 N02460 OPA2156
+R_R1         VBIAS1 N02460  100k TC=0,0 
+R_R2         N02510 N02460  1k TC=0,0 
+R_R3         N02510 0  100k TC=0,0 
+
+**** RESUMING sim.cir ****
+.END
+
+**** 11/21/24 16:00:04 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim"  [ C:\Users\li150\Desktop\git-tac\design\test-pspicefiles\schematic1\sim.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X_U1.DVN   
+          IS  100.000000E-18 
+          KF    1.000000E-12 
+
+
+**** 11/21/24 16:00:04 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim"  [ C:\Users\li150\Desktop\git-tac\design\test-pspicefiles\schematic1\sim.sim ] 
+
+
+ ****     Resistor MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.R_NOISELESS 
+  T_Measured   27            
+   T_Current -273.15         
+           R    1            
+
+
+**** 11/21/24 16:00:04 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim"  [ C:\Users\li150\Desktop\git-tac\design\test-pspicefiles\schematic1\sim.sim ] 
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.X_S1._S1   X_U1.X_S2._S2   
+         RON     .01             .01         
+        ROFF    1.000000E+12    1.000000E+12 
+         VON     .01             .01         
+        VOFF    0               0            
+
+
+               X_U1.X_U21.ESD_SW 
+         RON   50            
+        ROFF    1.000000E+12 
+         VON     .5          
+        VOFF     .45         
+
+
+               X_U1.X_U25.OL_SW 
+         RON    1.000000E-03 
+        ROFF    1.000000E+12 
+         VON     .9          
+        VOFF     .8          
+
+
+               X_U1.X_U5.ESD_SW 
+         RON   50            
+        ROFF    1.000000E+12 
+         VON     .5          
+        VOFF     .45         
+
+
+Starting pseudo-transient algorithm.
+
+INFO(ORPSIM-16594): To improve Pseudotransient Convergence and Performance, set following options to relax stabilization criteria for capacitor currents and inductor voltages: PTRANABSTOL=1e-5, PTRANVNTOL=1e-4
+
+Starting pseudo-transient algorithm.
+
+Starting pseudo-transient algorithm.
+
+Starting pseudo-transient algorithm.
+
+Starting pseudo-transient algorithm.
+
+Starting pseudo-transient algorithm.
+
+Starting pseudo-transient algorithm.
+
+Starting pseudo-transient algorithm.
+
+Starting pseudo-transient algorithm.
+
+Starting pseudo-transient algorithm.
+
+Starting pseudo-transient algorithm.
+
+Starting pseudo-transient algorithm.
+
+Starting pseudo-transient algorithm.
+
+Starting pseudo-transient algorithm.
+
+Starting pseudo-transient algorithm.
+
+Starting pseudo-transient algorithm.
+
+Starting pseudo-transient algorithm.
+
+
+          JOB CONCLUDED
+
+**** 11/21/24 16:00:04 **** PSpice 23.1.0 (30 January 2024) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-sim"  [ C:\Users\li150\Desktop\git-tac\design\test-pspicefiles\schematic1\sim.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =      123.95
+
